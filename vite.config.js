@@ -7,5 +7,6 @@ export default defineConfig({
     assetsInlineLimit:0,
     outDir: 'build',
   },
-  plugins: [react()]
+  plugins: [react()],
+  base:"/"
 })
