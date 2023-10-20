@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { AiOutlineMenu } from 'react-icons/ai'
-import Shopper from '../assets/shopper.png';
+// import Shopper from '../assets/Shopper.png';
 import {  Link, Route, Routes } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
@@ -35,7 +35,7 @@ const Sidenav = () => {
 <nav className="bg-gray-200 shadow shadow-lg w-100 px-8 md:block hidden">
   <div className="md:h-16 h-28 mx-auto md:px-4 container flex items-center justify-between flex-wrap md:flex-nowrap">
     <div className="text-indigo-500 md:order-1">
-      <img src={Shopper} className='relative w-[100%] h-[9vh]' alt="Shopper" />
+      {/* <img src={Shopper} className='relative w-[100%] h-[9vh]' alt="Shopper" /> */}
     </div>
     <div className="text-gray-500 order-3 w-full md:w-auto md:order-2">
       <ul className="flex font-semibold justify-between">
